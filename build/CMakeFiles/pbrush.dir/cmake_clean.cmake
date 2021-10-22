@@ -15,6 +15,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/pbrush.dir/src/shader.c.o.d"
   "CMakeFiles/pbrush.dir/src/shader_util.c.o"
   "CMakeFiles/pbrush.dir/src/shader_util.c.o.d"
+  "CMakeFiles/pbrush.dir/src/texture.c.o"
+  "CMakeFiles/pbrush.dir/src/texture.c.o.d"
   "CMakeFiles/pbrush.dir/src/vert_arr.c.o"
   "CMakeFiles/pbrush.dir/src/vert_arr.c.o.d"
   "pbrush"

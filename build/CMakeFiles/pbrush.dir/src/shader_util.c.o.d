@@ -1,7 +1,7 @@
 CMakeFiles/pbrush.dir/src/shader_util.c.o: \
- /home/doeringc/Projects/pbrush/src/shader_util.c \
+ /home/doeringc/Projects/PBrush/src/shader_util.c \
  /usr/include/stdc-predef.h \
- /home/doeringc/Projects/pbrush/include/shader_util.h \
+ /home/doeringc/Projects/PBrush/include/shader_util.h \
  /usr/include/epoxy/gl.h /usr/include/epoxy/common.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stdbool.h \
  /usr/include/epoxy/gl_generated.h /usr/include/inttypes.h \

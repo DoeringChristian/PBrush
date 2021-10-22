@@ -14,10 +14,17 @@ int main(int argc, char **argv){
 
     mainwindow_init(&window);
 
-    g_print("test1\n");
-    struct layer_paint lp;
-    layer_paint_init(&lp, window.canvas, vect2z(100, 100), 1.0);
-    canvas_push_layer(window.canvas, &lp.interface, 0);
+    struct layer_paint lp1;
+    struct layer_paint lp2;
+
+    layer_paint_init(&lp1, window.canvas, vect2z(500, 500), vect2f(0, 0), 1.0);
+    layer_paint_img_load(&lp2, "res/img/test.png", window.canvas, vect2f(0, 0), 1.0);
+
+    canvas_push_layer(window.canvas, &lp1.interface, 0);
+    canvas_push_layer(window.canvas, &lp2.interface, 0);
 
     gtk_main();
+
+    layer_free((struct layer *)&lp1);
+    layer_free((struct layer *)&lp2);
 }

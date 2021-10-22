@@ -1,8 +1,8 @@
 CMakeFiles/pbrush.dir/src/layer_paint.c.o: \
- /home/doeringc/Projects/pbrush/src/layer_paint.c \
+ /home/doeringc/Projects/PBrush/src/layer_paint.c \
  /usr/include/stdc-predef.h \
- /home/doeringc/Projects/pbrush/include/layer_paint.h \
- /home/doeringc/Projects/pbrush/include/layer.h \
+ /home/doeringc/Projects/PBrush/include/layer_paint.h \
+ /home/doeringc/Projects/PBrush/include/layer.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stddef.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
@@ -13,8 +13,8 @@ CMakeFiles/pbrush.dir/src/layer_paint.c.o: \
  /usr/include/bits/typesizes.h /usr/include/bits/time64.h \
  /usr/include/bits/wchar.h /usr/include/bits/stdint-intn.h \
  /usr/include/bits/stdint-uintn.h \
- /home/doeringc/Projects/pbrush/include/defines.h \
- /home/doeringc/Projects/pbrush/include/canvas.h /usr/include/epoxy/gl.h \
+ /home/doeringc/Projects/PBrush/include/defines.h \
+ /home/doeringc/Projects/PBrush/include/canvas.h /usr/include/epoxy/gl.h \
  /usr/include/epoxy/common.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stdbool.h \
  /usr/include/epoxy/gl_generated.h /usr/include/inttypes.h \
@@ -673,7 +673,18 @@ CMakeFiles/pbrush.dir/src/layer_paint.c.o: \
  /usr/include/gtk-3.0/gtk/deprecated/gtkvscrollbar.h \
  /usr/include/gtk-3.0/gtk/deprecated/gtkvseparator.h \
  /usr/include/gtk-3.0/gtk/gtk-autocleanups.h \
- /home/doeringc/Projects/pbrush/include/darray.h \
- /home/doeringc/Projects/pbrush/include/shader.h \
- /home/doeringc/Projects/pbrush/include/vect.h \
- /home/doeringc/Projects/pbrush/include/program.h
+ /home/doeringc/Projects/PBrush/include/darray.h \
+ /home/doeringc/Projects/PBrush/include/shader.h \
+ /home/doeringc/Projects/PBrush/include/vect.h \
+ /home/doeringc/Projects/PBrush/include/program.h \
+ /home/doeringc/Projects/PBrush/include/texture.h \
+ /home/doeringc/Projects/PBrush/include/stb_image.h /usr/include/math.h \
+ /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
+ /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
+ /usr/include/bits/fp-fast.h \
+ /usr/include/bits/mathcalls-helper-functions.h \
+ /usr/include/bits/mathcalls.h /usr/include/assert.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/emmintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/xmmintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/mmintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/mm_malloc.h

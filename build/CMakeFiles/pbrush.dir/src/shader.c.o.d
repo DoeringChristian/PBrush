@@ -1,6 +1,6 @@
 CMakeFiles/pbrush.dir/src/shader.c.o: \
- /home/doeringc/Projects/pbrush/src/shader.c /usr/include/stdc-predef.h \
- /home/doeringc/Projects/pbrush/include/shader.h \
+ /home/doeringc/Projects/PBrush/src/shader.c /usr/include/stdc-predef.h \
+ /home/doeringc/Projects/PBrush/include/shader.h \
  /usr/include/gtk-3.0/gtk/gtk.h /usr/include/gtk-3.0/gdk/gdk.h \
  /usr/include/gtk-3.0/gdk/gdkconfig.h /usr/include/glib-2.0/glib.h \
  /usr/include/glib-2.0/glib/galloca.h /usr/include/glib-2.0/glib/gtypes.h \

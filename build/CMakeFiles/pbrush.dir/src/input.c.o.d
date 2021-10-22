@@ -1,7 +1,7 @@
 CMakeFiles/pbrush.dir/src/input.c.o: \
- /home/doeringc/Projects/pbrush/src/input.c /usr/include/stdc-predef.h \
- /home/doeringc/Projects/pbrush/include/input.h \
- /home/doeringc/Projects/pbrush/include/vect.h \
+ /home/doeringc/Projects/PBrush/src/input.c /usr/include/stdc-predef.h \
+ /home/doeringc/Projects/PBrush/include/input.h \
+ /home/doeringc/Projects/PBrush/include/vect.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/sys/cdefs.h \

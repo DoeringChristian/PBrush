@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/doeringc/Projects/pbrush
+CMAKE_SOURCE_DIR = /home/doeringc/Projects/PBrush
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/doeringc/Projects/pbrush/build
+CMAKE_BINARY_DIR = /home/doeringc/Projects/PBrush/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/doeringc/Projects/pbrush/build/CMakeFiles /home/doeringc/Projects/pbrush/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/doeringc/Projects/PBrush/build/CMakeFiles /home/doeringc/Projects/PBrush/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/doeringc/Projects/pbrush/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/doeringc/Projects/PBrush/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -321,6 +321,30 @@ src/shader_util.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrush.dir/build.make CMakeFiles/pbrush.dir/src/shader_util.c.s
 .PHONY : src/shader_util.c.s
 
+src/texture.o: src/texture.c.o
+.PHONY : src/texture.o
+
+# target to build an object file
+src/texture.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrush.dir/build.make CMakeFiles/pbrush.dir/src/texture.c.o
+.PHONY : src/texture.c.o
+
+src/texture.i: src/texture.c.i
+.PHONY : src/texture.i
+
+# target to preprocess a source file
+src/texture.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrush.dir/build.make CMakeFiles/pbrush.dir/src/texture.c.i
+.PHONY : src/texture.c.i
+
+src/texture.s: src/texture.c.s
+.PHONY : src/texture.s
+
+# target to generate assembly for a file
+src/texture.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrush.dir/build.make CMakeFiles/pbrush.dir/src/texture.c.s
+.PHONY : src/texture.c.s
+
 src/vert_arr.o: src/vert_arr.c.o
 .PHONY : src/vert_arr.o
 
@@ -378,6 +402,9 @@ help:
 	@echo "... src/shader_util.o"
 	@echo "... src/shader_util.i"
 	@echo "... src/shader_util.s"
+	@echo "... src/texture.o"
+	@echo "... src/texture.i"
+	@echo "... src/texture.s"
 	@echo "... src/vert_arr.o"
 	@echo "... src/vert_arr.i"
 	@echo "... src/vert_arr.s"

@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/doeringc/Projects/pbrush
+CMAKE_SOURCE_DIR = /home/doeringc/Projects/PBrush
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/doeringc/Projects/pbrush/build
+CMAKE_BINARY_DIR = /home/doeringc/Projects/PBrush/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/pbrush.dir/clean
 CMakeFiles/pbrush.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrush.dir/build.make CMakeFiles/pbrush.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrush.dir/build.make CMakeFiles/pbrush.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/doeringc/Projects/pbrush/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target pbrush"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/doeringc/Projects/PBrush/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target pbrush"
 .PHONY : CMakeFiles/pbrush.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pbrush.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/doeringc/Projects/pbrush/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/doeringc/Projects/PBrush/build/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/pbrush.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/doeringc/Projects/pbrush/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/doeringc/Projects/PBrush/build/CMakeFiles 0
 .PHONY : CMakeFiles/pbrush.dir/rule
 
 # Convenience name for target.

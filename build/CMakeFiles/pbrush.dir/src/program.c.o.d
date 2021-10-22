@@ -1,6 +1,6 @@
 CMakeFiles/pbrush.dir/src/program.c.o: \
- /home/doeringc/Projects/pbrush/src/program.c /usr/include/stdc-predef.h \
- /home/doeringc/Projects/pbrush/include/program.h \
+ /home/doeringc/Projects/PBrush/src/program.c /usr/include/stdc-predef.h \
+ /home/doeringc/Projects/PBrush/include/program.h \
  /usr/include/gtk-3.0/gtk/gtk.h /usr/include/gtk-3.0/gdk/gdk.h \
  /usr/include/gtk-3.0/gdk/gdkconfig.h /usr/include/glib-2.0/glib.h \
  /usr/include/glib-2.0/glib/galloca.h /usr/include/glib-2.0/glib/gtypes.h \
@@ -667,4 +667,4 @@ CMakeFiles/pbrush.dir/src/program.c.o: \
  /usr/include/epoxy/common.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stdbool.h \
  /usr/include/epoxy/gl_generated.h /usr/include/inttypes.h \
- /home/doeringc/Projects/pbrush/include/shader.h
+ /home/doeringc/Projects/PBrush/include/shader.h

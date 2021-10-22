@@ -1,5 +1,5 @@
 CMakeFiles/pbrush.dir/src/main.c.o: \
- /home/doeringc/Projects/pbrush/src/main.c /usr/include/stdc-predef.h \
+ /home/doeringc/Projects/PBrush/src/main.c /usr/include/stdc-predef.h \
  /usr/include/string.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/bits/long-double.h \
@@ -672,13 +672,19 @@ CMakeFiles/pbrush.dir/src/main.c.o: \
  /usr/include/epoxy/common.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stdbool.h \
  /usr/include/epoxy/gl_generated.h /usr/include/inttypes.h \
- /home/doeringc/Projects/pbrush/include/mainwindow.h \
- /home/doeringc/Projects/pbrush/include/input.h \
- /home/doeringc/Projects/pbrush/include/vect.h \
- /home/doeringc/Projects/pbrush/include/canvas.h \
- /home/doeringc/Projects/pbrush/include/darray.h \
- /home/doeringc/Projects/pbrush/include/layer.h \
- /home/doeringc/Projects/pbrush/include/defines.h \
- /home/doeringc/Projects/pbrush/include/shader.h \
- /home/doeringc/Projects/pbrush/include/program.h \
- /home/doeringc/Projects/pbrush/include/layer_paint.h
+ /home/doeringc/Projects/PBrush/include/mainwindow.h \
+ /home/doeringc/Projects/PBrush/include/input.h \
+ /home/doeringc/Projects/PBrush/include/vect.h \
+ /home/doeringc/Projects/PBrush/include/canvas.h \
+ /home/doeringc/Projects/PBrush/include/darray.h \
+ /home/doeringc/Projects/PBrush/include/layer.h \
+ /home/doeringc/Projects/PBrush/include/defines.h \
+ /home/doeringc/Projects/PBrush/include/shader.h \
+ /home/doeringc/Projects/PBrush/include/program.h \
+ /home/doeringc/Projects/PBrush/include/layer_paint.h \
+ /home/doeringc/Projects/PBrush/include/texture.h \
+ /home/doeringc/Projects/PBrush/include/stb_image.h /usr/include/assert.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/emmintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/xmmintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/mmintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/mm_malloc.h
